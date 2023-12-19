@@ -1,0 +1,15 @@
+import Link from "next/link";
+import { Center } from "../Center";
+import { Container, Logo } from "./style";
+
+export const Header = () => (
+  <Container>
+    <Center>
+      <Logo>
+        <Link href="/">
+          <a>What's Next?!</a>
+        </Link>
+      </Logo>
+    </Center>
+  </Container>
+);
