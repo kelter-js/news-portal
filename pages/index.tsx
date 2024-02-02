@@ -1,12 +1,17 @@
 import React from "react";
 import Head from "next/head";
 
+import Feed from "../components/Feed";
+
 const Front = (): JSX.Element => (
   <>
     <Head>
       <title>Front page of the Internet</title>
     </Head>
-    <main>Hello world from Next!</main>
+
+    <main>
+      <Feed />
+    </main>
   </>
 );
 
