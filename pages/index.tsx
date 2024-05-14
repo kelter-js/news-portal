@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Head from "next/head";
 
-import { fetchPosts, fetchCategories } from "../api/request";
+import { fetchPosts, fetchCategories } from "../api";
 import { FeedProps } from "../shared/types";
 import Feed from "../components/Feed";
 

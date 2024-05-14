@@ -1,6 +1,6 @@
-import { UriString, EntityId, Person, Post } from "../../shared/types";
+import { UriString, EntityId, Person, Post } from "../shared/types";
 
-const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL;
+const baseUrl = `${process.env.NEXT_PUBLIC_VERCEL_URL}/api`;
 
 const request = async <TResponse>(url: UriString) => {
   const response = await fetch(`${baseUrl}/${url}`);

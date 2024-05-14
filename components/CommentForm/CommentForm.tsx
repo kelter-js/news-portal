@@ -2,7 +2,7 @@ import { useState, FormEvent, FC } from "react";
 import { useDispatch } from "react-redux";
 import { EntityId } from "../../shared/types";
 import { Form } from "./CommentFormStyle";
-import { submitComment } from "../../api/request";
+import { submitComment } from "../../api";
 import { UPDATE_COMMENTS_ACTION } from "../../store/comments";
 
 type CommentFormProps = {
