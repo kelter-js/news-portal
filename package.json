@@ -4,8 +4,8 @@
     "build": "next build",
     "start": "next start",
     "serve": "ts-node ./server/index.ts",
-    "dev": "concurrently --kill-others \"yarn serve\" \"next\"",
-    "vanillaDev": "next"
+    "dev": "next",
+    "extDev": "concurrently --kill-others \"yarn serve\" \"next\""
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.2",
