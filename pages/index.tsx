@@ -1,18 +1,29 @@
-import React from "react";
+import { FC } from "react";
 import Head from "next/head";
 
+import { fetchPosts, fetchCategories } from "./request";
+import { FeedProps } from "../shared/types";
 import Feed from "../components/Feed";
 
-const Front = (): JSX.Element => (
-  <>
-    <Head>
-      <title>Front page of the Internet</title>
-    </Head>
+export async function getServerSideProps() {
+  const categories = await fetchCategories();
+  const posts = await fetchPosts();
 
-    <main>
-      <Feed />
-    </main>
-  </>
-);
+  return { props: { posts, categories } };
+}
+
+const Front: FC<FeedProps> = ({ posts, categories }) => {
+  return (
+    <>
+      <Head>
+        <title>Front page of the Internet</title>
+      </Head>
+
+      <main>
+        <Feed posts={posts} categories={categories} />
+      </main>
+    </>
+  );
+};
 
 export default Front;
