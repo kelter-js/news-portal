@@ -1,13 +1,20 @@
 import fetch from "node-fetch";
+
 import { Post, Category } from "../shared/types";
 import { config } from "./config";
 
-export async function fetchPosts(): Promise<Post[]> {
+export const fetchPosts = async (): Promise<Post[]> => {
   const res = await fetch(`${config.baseUrl}/posts`);
-  return (await res.json()) as Promise<Post[]>;
-}
+  
+  const posts = (await res.json()) as Post[];
 
-export async function fetchCategories(): Promise<Category[]> {
+  return posts;
+};
+
+export const fetchCategories = async (): Promise<Category[]> => {
   const res = await fetch(`${config.baseUrl}/categories`);
-  return (await res.json()) as Promise<Category[]>;
-}
+
+  const categories = (await res.json()) as Category[];
+
+  return categories;
+};
