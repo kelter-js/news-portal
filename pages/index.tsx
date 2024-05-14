@@ -17,6 +17,7 @@ const Front: FC<FeedProps> = ({ posts, categories }) => {
     <>
       <Head>
         <title>Front page of the Internet</title>
+        <title>Front page of the Internet</title>
       </Head>
 
       <main>
