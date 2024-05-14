@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Head from "next/head";
 
-import { fetchPosts, fetchCategories } from "../api";
+import { fetchPosts, fetchCategories } from "./api";
 import { FeedProps } from "../shared/types";
 import Feed from "../components/Feed";
 
@@ -16,7 +16,6 @@ const Front: FC<FeedProps> = ({ posts, categories }) => {
   return (
     <>
       <Head>
-        <title>Front page of the Internet</title>
         <title>Front page of the Internet</title>
       </Head>
 
