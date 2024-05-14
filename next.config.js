@@ -7,5 +7,4 @@ module.exports = {
     domains: ["ichef.bbci.co", "source.unsplash.com"],
     deviceSizes: [320, 640, 860, 1000],
   },
-  distDir: "build",
 };

@@ -3,9 +3,7 @@
   "scripts": {
     "build": "next build",
     "start": "next start",
-    "serve": "ts-node ./server/index.ts",
-    "dev": "next",
-    "extDev": "concurrently --kill-others \"yarn serve\" \"next\""
+    "dev": "next"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.2",
