@@ -1,7 +1,7 @@
 import type { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 
-import { fetchCategory } from "../../pages/request";
+import { fetchCategory } from "../../api/request";
 import { Post } from "../../shared/types";
 import Section from "../Section";
 import Loader from "../Loader";

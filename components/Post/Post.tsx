@@ -5,7 +5,7 @@ import Loader from "../Loader";
 import PostBody from "./PostBody";
 import Comments from "../Comments";
 
-import { fetchPost, fetchComments } from "../../pages/request";
+import { fetchPost, fetchComments } from "../../api/request";
 import { State, wrapper } from "../../store";
 import { PostState, UPDATE_POST_ACTION } from "../../store/post";
 import { CommentsState, UPDATE_COMMENTS_ACTION } from "../../store/comments";
