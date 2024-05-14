@@ -15,3 +15,21 @@ export type Post = {
   image: UriString;
   source: UriString;
 };
+
+export interface FeedProps {
+  posts: Post[];
+  categories: Category[];
+}
+
+export type Person = string;
+export type RelativeTime = string;
+export type Comment = {
+  id: EntityId;
+  author: Person;
+  content: string;
+  time: RelativeTime;
+  post: EntityId;
+};
+
+export type PostState = Optional<Post>;
+export type Optional<TEntity> = TEntity | null;
