@@ -1,8 +1,3 @@
-const IS_PRODUCTION = process.env.NODE_ENV === "production";
-
-const protocol = IS_PRODUCTION ? "https" : "http";
-const apiUrl = process.env.NEXT_PUBLIC_API_URL || "localhost:3000";
-
 export const config = {
-  baseUrl: `${apiUrl}/api`,
+  baseUrl: `${process.env.URL}/api`,
 };
