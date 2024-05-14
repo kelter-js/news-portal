@@ -6,9 +6,7 @@ export const Header = () => (
   <Container>
     <Center>
       <Logo>
-        <Link href="/">
-          <a>What's Next?!</a>
-        </Link>
+      <a href="/">What's Next?!</a>
       </Logo>
     </Center>
   </Container>

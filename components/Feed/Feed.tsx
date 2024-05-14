@@ -1,10 +1,24 @@
+import { FC } from "react";
+
+import { FeedProps } from "../../shared/types";
 import Section from "../Section";
 
-const Feed = () => (
+const Feed: FC<FeedProps> = ({ posts, categories }) => (
   <>
-    <Section title="Science" />
-    <Section title="Technology" />
-    <Section title="Arts" />
+    {categories.map((currentCategory) => {
+      const inSection = posts.filter(
+        (post) => post.category === currentCategory
+      );
+
+      return (
+        <Section
+          key={currentCategory}
+          title={currentCategory}
+          posts={inSection}
+          isCompact
+        />
+      );
+    })}
   </>
 );
 
