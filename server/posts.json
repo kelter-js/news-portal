@@ -1,104 +1,102 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "The Future of AI in Healthcare",
-      "date": "2022-01-15",
-      "category": "Science",
-      "source": "https://www.example.com/ai-healthcare",
-      "image": "https://www.example.com/images/ai-healthcare.jpg",
-      "lead": "AI is revolutionizing the healthcare industry, improving diagnostics and treatment.",
-      "content": "In recent years, the application of artificial intelligence in healthcare has made significant strides..."
-    },
-    {
-      "id": 2,
-      "title": "Space Exploration: New Horizons",
-      "date": "2022-02-01",
-      "category": "Science",
-      "source": "https://www.example.com/space-exploration",
-      "image": "https://www.example.com/images/space-exploration.jpg",
-      "lead": "Explore the latest discoveries and missions in space exploration.",
-      "content": "The quest to explore outer space and the mysteries of the universe continues with new missions and advancements..."
-    },
-    {
-      "id": 3,
-      "title": "Climate Change: Impact on Oceans",
-      "date": "2022-02-20",
-      "category": "Environment",
-      "source": "https://www.example.com/climate-change-oceans",
-      "image": "https://www.example.com/images/climate-change-oceans.jpg",
-      "lead": "Learn about the effects of climate change on marine environments and ecosystems.",
-      "content": "Rising sea temperatures, acidification, and extreme weather events are among the challenges facing our oceans due to climate change..."
-    },
-    {
-      "id": 4,
-      "title": "Advances in Renewable Energy",
-      "date": "2022-03-10",
-      "category": "Technology",
-      "source": "https://www.example.com/renewable-energy-advances",
-      "image": "https://www.example.com/images/renewable-energy-advances.jpg",
-      "lead": "Discover the latest innovations and developments in renewable energy technologies.",
-      "content": "From solar and wind power to biofuels and energy storage, the renewable energy sector continues to make significant progress..."
-    },
-    {
-      "id": 5,
-      "title": "The Impact of Artificial Intelligence",
-      "date": "2022-04-05",
-      "category": "Technology",
-      "source": "https://www.example.com/impact-of-ai",
-      "image": "https://www.example.com/images/impact-of-ai.jpg",
-      "lead": "Explore the transformative effects of AI on various industries and society as a whole.",
-      "content": "Artificial intelligence is reshaping industries such as finance, manufacturing, healthcare, and transportation, leading to both opportunities and challenges..."
-    },
-    {
-      "id": 6,
-      "title": "Biotechnology Breakthroughs",
-      "date": "2022-05-01",
-      "category": "Science",
-      "source": "https://www.example.com/biotechnology-breakthroughs",
-      "image": "https://www.example.com/images/biotechnology-breakthroughs.jpg",
-      "lead": "Learn about the latest advancements in biotechnology and genetic engineering.",
-      "content": "From gene editing and personalized medicine to agricultural biotechnology, the biotech industry continues to achieve groundbreaking discoveries..."
-    },
-    {
-      "id": 7,
-      "title": "Protecting Biodiversity",
-      "date": "2022-05-25",
-      "category": "Environment",
-      "source": "https://www.example.com/protecting-biodiversity",
-      "image": "https://www.example.com/images/protecting-biodiversity.jpg",
-      "lead": "Understand the importance of preserving biodiversity and the impact of human activities on ecosystems.",
-      "content": "Conservation efforts, sustainable practices, and awareness campaigns are essential in safeguarding the rich diversity of life on Earth..."
-    },
-    {
-      "id": 8,
-      "title": "The Rise of E-commerce",
-      "date": "2022-06-10",
-      "category": "Business",
-      "source": "https://www.example.com/rise-of-ecommerce",
-      "image": "https://www.example.com/images/rise-of-ecommerce.jpg",
-      "lead": "Examine the growing influence of online retail and digital marketplaces on consumer behavior and businesses.",
-      "content": "The e-commerce industry has experienced rapid growth, fueled by technology, convenience, and changing consumer preferences..."
-    },
-    {
-      "id": 9,
-      "title": "Understanding Blockchain Technology",
-      "date": "2022-07-01",
-      "category": "Technology",
-      "source": "https://www.example.com/understanding-blockchain",
-      "image": "https://www.example.com/images/understanding-blockchain.jpg",
-      "lead": "Gain insights into the potential applications and benefits of blockchain in various sectors.",
-      "content": "Blockchain technology offers transparent, secure, and decentralized solutions that can disrupt industries such as finance, supply chain, and healthcare..."
-    },
-    {
-      "id": 10,
-      "title": "The Evolution of Virtual Reality",
-      "date": "2022-07-20",
-      "category": "Technology",
-      "source": "https://www.example.com/evolution-of-vr",
-      "image": "https://www.example.com/images/evolution-of-vr.jpg",
-      "lead": "Explore the advancements and immersive experiences enabled by virtual reality technology.",
-      "content": "Virtual reality has evolved from gaming and entertainment to applications in education, training, healthcare, and more, offering new possibilities for interaction and engagement..."
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "The Future of AI in Healthcare",
+    "date": "2022-01-15",
+    "category": "Science",
+    "source": "https://www.example.com/ai-healthcare",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "AI is revolutionizing the healthcare industry, improving diagnostics and treatment.",
+    "content": "In recent years, the application of artificial intelligence in healthcare has made significant strides..."
+  },
+  {
+    "id": 2,
+    "title": "Space Exploration: New Horizons",
+    "date": "2022-02-01",
+    "category": "Science",
+    "source": "https://www.example.com/space-exploration",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "Explore the latest discoveries and missions in space exploration.",
+    "content": "The quest to explore outer space and the mysteries of the universe continues with new missions and advancements..."
+  },
+  {
+    "id": 3,
+    "title": "Climate Change: Impact on Oceans",
+    "date": "2022-02-20",
+    "category": "Environment",
+    "source": "https://www.example.com/climate-change-oceans",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "Learn about the effects of climate change on marine environments and ecosystems.",
+    "content": "Rising sea temperatures, acidification, and extreme weather events are among the challenges facing our oceans due to climate change..."
+  },
+  {
+    "id": 4,
+    "title": "Advances in Renewable Energy",
+    "date": "2022-03-10",
+    "category": "Technology",
+    "source": "https://www.example.com/renewable-energy-advances",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "Discover the latest innovations and developments in renewable energy technologies.",
+    "content": "From solar and wind power to biofuels and energy storage, the renewable energy sector continues to make significant progress..."
+  },
+  {
+    "id": 5,
+    "title": "The Impact of Artificial Intelligence",
+    "date": "2022-04-05",
+    "category": "Technology",
+    "source": "https://www.example.com/impact-of-ai",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "Explore the transformative effects of AI on various industries and society as a whole.",
+    "content": "Artificial intelligence is reshaping industries such as finance, manufacturing, healthcare, and transportation, leading to both opportunities and challenges..."
+  },
+  {
+    "id": 6,
+    "title": "Biotechnology Breakthroughs",
+    "date": "2022-05-01",
+    "category": "Science",
+    "source": "https://www.example.com/biotechnology-breakthroughs",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "Learn about the latest advancements in biotechnology and genetic engineering.",
+    "content": "From gene editing and personalized medicine to agricultural biotechnology, the biotech industry continues to achieve groundbreaking discoveries..."
+  },
+  {
+    "id": 7,
+    "title": "Protecting Biodiversity",
+    "date": "2022-05-25",
+    "category": "Environment",
+    "source": "https://www.example.com/protecting-biodiversity",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "Understand the importance of preserving biodiversity and the impact of human activities on ecosystems.",
+    "content": "Conservation efforts, sustainable practices, and awareness campaigns are essential in safeguarding the rich diversity of life on Earth..."
+  },
+  {
+    "id": 8,
+    "title": "The Rise of E-commerce",
+    "date": "2022-06-10",
+    "category": "Business",
+    "source": "https://www.example.com/rise-of-ecommerce",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "Examine the growing influence of online retail and digital marketplaces on consumer behavior and businesses.",
+    "content": "The e-commerce industry has experienced rapid growth, fueled by technology, convenience, and changing consumer preferences..."
+  },
+  {
+    "id": 9,
+    "title": "Understanding Blockchain Technology",
+    "date": "2022-07-01",
+    "category": "Technology",
+    "source": "https://www.example.com/understanding-blockchain",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "Gain insights into the potential applications and benefits of blockchain in various sectors.",
+    "content": "Blockchain technology offers transparent, secure, and decentralized solutions that can disrupt industries such as finance, supply chain, and healthcare..."
+  },
+  {
+    "id": 10,
+    "title": "The Evolution of Virtual Reality",
+    "date": "2022-07-20",
+    "category": "Technology",
+    "source": "https://www.example.com/evolution-of-vr",
+    "image": "https://source.unsplash.com/random/800x800/?img=1",
+    "lead": "Explore the advancements and immersive experiences enabled by virtual reality technology.",
+    "content": "Virtual reality has evolved from gaming and entertainment to applications in education, training, healthcare, and more, offering new possibilities for interaction and engagement..."
+  }
+]
