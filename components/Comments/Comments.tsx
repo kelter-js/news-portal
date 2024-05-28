@@ -1,7 +1,8 @@
 import { FC } from "react";
+
 import { Comment as CommentType, EntityId } from "../../shared/types";
-import Comment from "../Comment/Comment";
 import { Container, List, Item } from "./CommentsStyle";
+import Comment from "../Comment/Comment";
 import CommentForm from "../CommentForm";
 
 type CommentsProps = {

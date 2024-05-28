@@ -11,6 +11,7 @@ import Document, {
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const sheet = new ServerStyleSheet();
+    
     const originalRenderPage = ctx.renderPage;
 
     try {

@@ -1,9 +1,9 @@
 import { FC } from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 import { Card, Figure, Title, Excerpt } from "./PostCardStyle";
 import { Post } from "../../shared/types";
-import { useRouter } from "next/navigation";
 
 interface PostCardProps {
   post: Post;
@@ -31,7 +31,9 @@ const PostCard: FC<PostCardProps> = ({ post }) => {
           sizes="(min-width: 1000px) 320px, 100vw"
         />
       </Figure>
+
       <Title>{post.title}</Title>
+      
       <Excerpt>{post.lead}</Excerpt>
     </Card>
   );

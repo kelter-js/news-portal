@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <Container>
       <Center>
-        <a href="https://newline.co">Newline.co</a> {currentYear}
+        <span>kelter</span> {currentYear}
       </Center>
     </Container>
   );

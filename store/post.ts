@@ -1,5 +1,6 @@
-import { AnyAction } from "redux";
 import { HYDRATE } from "next-redux-wrapper";
+import { AnyAction } from "redux";
+
 import { Post, Optional } from "../shared/types";
 import { HydrateAction } from "./hydrate";
 

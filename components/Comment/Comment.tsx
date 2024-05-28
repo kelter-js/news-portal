@@ -1,7 +1,7 @@
 import { FC } from "react";
 
-import { Comment as CommentType } from "../../shared/types";
 import { Container, Author, Body, Meta } from "./CommentStyle";
+import { Comment as CommentType } from "../../shared/types";
 
 interface CommentProps {
   comment: CommentType;

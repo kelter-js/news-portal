@@ -1,8 +1,8 @@
 import { FC } from "react";
 
-import PostCard from "../Post";
 import { Grid, Title, MoreLink } from "./SectionStyle";
 import { Post } from "../../shared/types";
+import PostCard from "../Post";
 
 interface SectionProps {
   title: string;
@@ -13,6 +13,7 @@ interface SectionProps {
 const Section: FC<SectionProps> = ({ title, posts, isCompact = false }) => (
   <section>
     <Title>{title}</Title>
+    
     <Grid>
       {posts.map((post) => (
         <PostCard key={post.id} post={post} />

@@ -8,6 +8,7 @@ export const Author = styled.h4`
   display: block;
   font-size: 1rem;
 `;
+
 export const Body = styled.p`
   margin: 0;
 `;

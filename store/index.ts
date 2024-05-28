@@ -1,5 +1,6 @@
-import { Store, createStore, combineReducers } from "redux";
 import { MakeStore, createWrapper } from "next-redux-wrapper";
+import { Store, createStore, combineReducers } from "redux";
+
 import { comments, CommentsState } from "./comments";
 import { post, PostState } from "./post";
 

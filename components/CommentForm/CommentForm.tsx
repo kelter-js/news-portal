@@ -1,9 +1,10 @@
 import { useState, FormEvent, FC } from "react";
 import { useDispatch } from "react-redux";
+
+import { UPDATE_COMMENTS_ACTION } from "../../store/comments";
+import { submitComment } from "../../pages/api";
 import { EntityId } from "../../shared/types";
 import { Form } from "./CommentFormStyle";
-import { submitComment } from "../../pages/api";
-import { UPDATE_COMMENTS_ACTION } from "../../store/comments";
 
 type CommentFormProps = {
   post: EntityId;
@@ -34,6 +35,7 @@ export const CommentForm: FC<CommentFormProps> = ({ post }) => {
   return (
     <Form onSubmit={submit}>
       <h3>Your comment</h3>
+
       <input
         type="text"
         name="name"
@@ -42,6 +44,7 @@ export const CommentForm: FC<CommentFormProps> = ({ post }) => {
         onChange={(e) => setName(e.target.value)}
         required
       />
+
       <textarea
         name="comment"
         value={value}
@@ -49,6 +52,7 @@ export const CommentForm: FC<CommentFormProps> = ({ post }) => {
         onChange={(e) => setValue(e.target.value)}
         required
       />
+
       {loading ? <span>Submitting...</span> : <button>Submit</button>}
     </Form>
   );
